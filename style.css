@@ -26,7 +26,6 @@ body {
   font-size: "16px";
   font-weight: "400";
   background-color: #fff;
-  height: 2360px;
 }
 
 header {
@@ -163,11 +162,10 @@ main .banner_img {
   overflow-y: hidden;
   position: relative;
   right: -524px;
-  top: -460px;
+  top: -475px;
 }
 main .banner_img img {
-  width: 540px;
-  width: 780px;
+  width: 880px;
   height: 480px;
   border-radius: 12px;
 }
@@ -175,15 +173,15 @@ main .Info {
   background-color: #f6f7fb;
   z-index: -30;
   position: relative;
-  top: -1066px;
-  height: 1280px;
   width: 100%;
+  height: 1100px;
   -webkit-clip-path: ellipse(140% 240% at 24.47% 100%);
           clip-path: ellipse(140% 240% at 24.47% 100%);
+  top: -500px;
 }
 main .Info .long_bar {
   position: relative;
-  top: 200px;
+  top: 240px;
   left: 78px;
 }
 main .Info .long_bar h1 {
@@ -216,7 +214,7 @@ main .Info .long_bar button {
 main .Info .Img_card {
   z-index: -40;
   position: relative;
-  top: 220px;
+  top: 180px;
   left: 78px;
   box-sizing: border-box;
   border-radius: 12px;
@@ -247,10 +245,11 @@ main .Info .Img_card p {
 }
 main .how_it_works {
   position: relative;
-  top: -1000px;
+  margin-bottom: 24px;
   overflow: hidden;
   margin-left: 20px;
   padding: 20px;
+  top: -320px;
   display: flex;
   width: 100%;
 }
@@ -299,7 +298,7 @@ main .how_it_works .how {
 main .info_p {
   padding: 10px;
   position: relative;
-  top: -260px;
+  top: 260px;
   word-wrap: break-word;
   width: 620px;
   left: 600px;
@@ -313,7 +312,6 @@ footer {
   position: relative;
   width: 400%;
   left: -39px;
-  top: -944px;
   background: #f6f7fb;
   clear: left;
   color: #282e3e;
@@ -371,17 +369,6 @@ footer .footer_content ul li {
   }
   header nav .main_buttons .not {
     visibility: hidden;
-  }
-  body {
-    overflow: hidden;
-    font-family: "Roboto", sans-serif;
-    font-size: "16px";
-    font-weight: "400";
-    background-color: #fff;
-    height: 3180px;
-  }
-  footer {
-    top: -984px;
   }
   footer .footer_content {
     left: -44px;
@@ -451,7 +438,7 @@ footer .footer_content ul li {
     padding-bottom: 50px;
   }
   main .info_p {
-    top: 580px;
+    top: 1080px;
     width: 224px;
     left: 100px;
   }
@@ -491,17 +478,6 @@ footer .footer_content ul li {
   header nav .main_buttons .not {
     visibility: hidden;
   }
-  body {
-    overflow: hidden;
-    font-family: "Roboto", sans-serif;
-    font-size: "16px";
-    font-weight: "400";
-    background-color: #fff;
-    height: 3180px;
-  }
-  footer {
-    top: -994px;
-  }
   footer .footer_content {
     left: -44px;
   }
@@ -524,7 +500,7 @@ footer .footer_content ul li {
     height: 1800px;
   }
   main .Info .long_bar {
-    top: 100px;
+    top: 140px;
     padding: 20px;
     left: 0px;
   }
@@ -570,7 +546,7 @@ footer .footer_content ul li {
     padding-bottom: 50px;
   }
   main .info_p {
-    top: 590px;
+    top: 1090px;
     width: 250px;
     left: 100px;
   }
@@ -584,7 +560,7 @@ footer .footer_content ul li {
   header nav .sitelogo svg {
     position: relative;
     left: 0px;
-    width: 70px;
+    width: 110px;
     height: 90px;
     padding-top: 10px;
     fill: #4255ff;
@@ -595,7 +571,7 @@ footer .footer_content ul li {
   header nav ul li a {
     font-size: 1rem;
     font-weight: 600;
-    width: 290px;
+    width: 310px;
     position: relative;
     left: 40px;
   }
@@ -605,21 +581,10 @@ footer .footer_content ul li {
     margin: 45px 0px 0px 0px;
     width: 1300px;
     position: relative;
-    left: 160px;
+    left: 120px;
   }
   header nav .main_buttons .not {
     visibility: hidden;
-  }
-  body {
-    overflow: hidden;
-    font-family: "Roboto", sans-serif;
-    font-size: "16px";
-    font-weight: "400";
-    background-color: #fff;
-    height: 3128px;
-  }
-  footer {
-    top: -924px;
   }
   footer .footer_content {
     left: -44px;
@@ -641,7 +606,7 @@ footer .footer_content ul li {
   }
   main .Info {
     height: 1800px;
-    top: -1000px;
+    top: -600px;
   }
   main .Info .long_bar {
     top: 300px;
@@ -670,7 +635,7 @@ footer .footer_content ul li {
     visibility: hidden;
   }
   main .how_it_works {
-    top: -940px;
+    top: -320px;
     display: flex;
     flex-direction: column;
   }
@@ -694,7 +659,7 @@ footer .footer_content ul li {
     padding-bottom: 50px;
   }
   main .info_p {
-    top: 520px;
+    top: 1020px;
     width: 400px;
     left: 140px;
   }
@@ -712,27 +677,18 @@ footer .footer_content ul li {
     margin: 45px -19px 0px 0px;
     width: 300px;
   }
-  body {
-    overflow: hidden;
-    font-family: "Roboto", sans-serif;
-    font-size: "16px";
-    font-weight: "400";
-    background-color: #fff;
-    height: 2464px;
-  }
   main .banner_img {
     right: -400px;
     height: 600px;
   }
   main .Info {
     background-color: #f6f7fb;
-    z-index: -30000;
     position: relative;
-    top: -1096px;
+    top: -500px;
   }
   main .Info .long_bar {
     position: relative;
-    top: 300px;
+    top: 200px;
     left: 68px;
     padding: 20px;
   }
@@ -743,9 +699,16 @@ footer .footer_content ul li {
     left: 560px;
     top: -128px;
   }
+  main .Info .Img_card p {
+    width: 200px;
+  }
+  main .how_it_works {
+    display: flex;
+    flex-direction: column;
+  }
   main .how_it_works .list-2 {
     position: relative;
-    left: -10px;
+    left: 10px;
     top: 5px;
   }
   main .how_it_works P {
@@ -755,11 +718,15 @@ footer .footer_content ul li {
     width: 560px;
     border-radius: 25px;
     position: relative;
-    left: -44px;
-    top: 28px;
+    left: -4px;
+    top: -48px;
+  }
+  main .how_it_works .how img {
+    width: 600px;
+    height: 600px;
   }
   main .info_p {
-    top: -140px;
+    top: 440px;
     width: 240px;
     left: 510px;
   }

@@ -25,7 +25,6 @@ body {
   overflow: hidden;
   @include fonts-face('16px', '400');
   background-color: $background-color;
-  height: 2360px;
 }
 header {
   background-color: $background-color;
@@ -123,6 +122,7 @@ main {
 
     .main_buttons {
       display: flex;
+      
       margin-top: 50px;
       a {
         padding: 20px;
@@ -166,15 +166,16 @@ main {
     word-wrap: break-word;
   }
   .banner_img {
+
     overflow-y: hidden;
     position: relative;
     right: -524px;
-    top: -460px;
+    top: -475px;
     img {
-      width: 540px;
-      width: 780px;
+    
+      width: 880px;
       height: 480px;
-     
+
       border-radius: 12px;
     }
   }
@@ -183,14 +184,14 @@ main {
     background-color: #f6f7fb;
     z-index: -30;
     position: relative;
-    top: -1066px;
-    height: 1280px;
-    width: 100%;
-    clip-path: ellipse(140% 240% at 24.47% 100%);
 
+    width: 100%;
+    height: 1100px;
+    clip-path: ellipse(140% 240% at 24.47% 100%);
+    top: -500px;
     .long_bar {
       position: relative;
-      top: 200px;
+      top: 240px;
       left: 78px;
       h1 {
         font-size: 4rem;
@@ -199,6 +200,7 @@ main {
         padding-bottom: 20px;
 
         .css-qq3mc3 {
+  
           box-sizing: border-box;
           margin: 0;
           min-width: 0;
@@ -227,7 +229,7 @@ main {
     .Img_card {
       z-index: -40;
       position: relative;
-      top: 220px;
+      top: 180px;
       left: 78px;
       box-sizing: border-box;
 
@@ -263,11 +265,11 @@ main {
 
   .how_it_works {
     position: relative;
-    top: -1000px;
+    margin-bottom: 24px;
     overflow: hidden;
     margin-left: 20px;
     padding: 20px;
-
+    top: -320px;
     display: flex;
     width: 100%;
     h1 {
@@ -316,9 +318,10 @@ main {
     }
   }
   .info_p {
+   
     padding: 10px;
     position: relative;
-    top: -260px;
+    top: 260px;
     word-wrap: break-word;
     width: 620px;
     left: 600px;
@@ -335,7 +338,7 @@ footer {
   width: 400%;
 
   left: -39px;
-  top: -944px;
+
   background: #f6f7fb;
   clear: left;
   color: #282e3e;
@@ -362,15 +365,13 @@ footer {
   }
 }
 
-
 @include media('<=phone') {
   header {
     nav {
-      .sitelogo{
+      .sitelogo {
         overflow: hidden;
         width: 140px;
         height: 100px;
-       
       }
       .sitelogo svg {
         position: relative;
@@ -399,21 +400,16 @@ footer {
         width: 1300px;
         position: relative;
         left: 110px;
-       
+
         .not {
           visibility: hidden;
         }
       }
     }
   }
-  body {
-    overflow: hidden;
-    @include fonts-face('16px', '400');
-    background-color: $background-color;
-    height: 3180px;
-  }
+
   footer {
-    top: -984px;
+    
 
     .footer_content {
       left: -44px;
@@ -496,7 +492,7 @@ footer {
       }
     }
     .info_p {
-      top: 580px;
+      top: 1080px;
 
       width: 224px;
       left: 100px;
@@ -507,11 +503,10 @@ footer {
 @include media('>phone', '<=425px') {
   header {
     nav {
-      .sitelogo{
+      .sitelogo {
         overflow: hidden;
         width: 140px;
         height: 100px;
-       
       }
       .sitelogo svg {
         position: relative;
@@ -546,14 +541,9 @@ footer {
       }
     }
   }
-  body {
-    overflow: hidden;
-    @include fonts-face('16px', '400');
-    background-color: $background-color;
-    height: 3180px;
-  }
+
   footer {
-    top: -994px;
+   
 
     .footer_content {
       left: -44px;
@@ -584,7 +574,7 @@ footer {
       height: 1800px;
 
       .long_bar {
-        top: 100px;
+        top: 140px;
         padding: 20px;
         left: -0px;
         h1 {
@@ -637,7 +627,7 @@ footer {
       }
     }
     .info_p {
-      top: 590px;
+      top: 1090px;
 
       width: 250px;
       left: 100px;
@@ -648,16 +638,15 @@ footer {
 @include media('>425px', '<=tablet') {
   header {
     nav {
-      .sitelogo{
+      .sitelogo {
         overflow: hidden;
         width: 200px;
         height: 100px;
-       
       }
       .sitelogo svg {
         position: relative;
         left: -0px;
-        width: 70px;
+        width: 110px;
         height: 90px;
         padding-top: 10px;
         fill: #4255ff;
@@ -668,7 +657,7 @@ footer {
           a {
             font-size: 1rem;
             font-weight: 600;
-            width: 290px;
+            width: 310px;
             position: relative;
             left: 40px;
           }
@@ -680,7 +669,7 @@ footer {
         margin: 45px 0px 0px 0px;
         width: 1300px;
         position: relative;
-        left: 160px;
+        left: 120px;
         .not {
           visibility: hidden;
         }
@@ -688,14 +677,9 @@ footer {
     }
   }
 
-  body {
-    overflow: hidden;
-    @include fonts-face('16px', '400');
-    background-color: $background-color;
-    height: 3128px;
-  }
+
   footer {
-    top: -924px;
+
 
     .footer_content {
       left: -44px;
@@ -724,7 +708,7 @@ footer {
 
     .Info {
       height: 1800px;
-      top: -1000px;
+      top: -600px;
       .long_bar {
         top: 300px;
         padding: 20px;
@@ -758,7 +742,7 @@ footer {
     }
 
     .how_it_works {
-      top: -940px;
+      top: -320px;
 
       display: flex;
       flex-direction: column;
@@ -784,7 +768,7 @@ footer {
       }
     }
     .info_p {
-      top: 520px;
+      top: 1020px;
 
       width: 400px;
       left: 140px;
@@ -814,14 +798,6 @@ footer {
       }
     }
   }
-
-  body {
-    overflow: hidden;
-    @include fonts-face('16px', '400');
-    background-color: $background-color;
-    height: 2464px;
-  }
-
   main {
     .banner_img {
       right: -400px;
@@ -831,13 +807,13 @@ footer {
 
     .Info {
       background-color: #f6f7fb;
-      z-index: -30000;
+      
       position: relative;
-      top: -1096px;
+      top: -500px;
 
       .long_bar {
         position: relative;
-        top: 300px;
+        top: 200px;
         left: 68px;
         padding: 20px;
       }
@@ -847,13 +823,18 @@ footer {
           left: 560px;
           top: -128px;
         }
+        p{
+          width: 200px;
+        }
       }
     }
 
     .how_it_works {
+      display:flex ;
+      flex-direction: column;
       .list-2 {
         position: relative;
-        left: -10px;
+        left: 10px;
         top: 5px;
       }
       P {
@@ -864,12 +845,16 @@ footer {
 
         border-radius: 25px;
         position: relative;
-        left: -44px;
-        top: 28px;
+        left: -4px;
+        top: -48px;
+        img{
+          width: 600px;
+          height: 600px;
+        }
       }
     }
     .info_p {
-      top: -140px;
+      top: 440px;
       width: 240px;
       left: 510px;
     }
