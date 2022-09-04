@@ -14,6 +14,13 @@
     transform: rotate(360deg);
   }
 }
+::-moz-selection {
+  background: #c5f1f1;
+}
+::selection {
+  background: #c5f1f1;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -112,8 +119,6 @@ main .ban {
   overflow-y: hidden;
   padding: 40px;
   background-color: #4255ff;
-  -webkit-clip-path: ellipse(100% 100% at 24.47% 0%);
-          clip-path: ellipse(100% 100% at 24.47% 0%);
   height: 380px;
 }
 main .ban .main_buttons {
@@ -311,6 +316,7 @@ main .info_p {
 footer {
   position: relative;
   width: 400%;
+  height: 10px;
   left: -39px;
   background: #f6f7fb;
   clear: left;
@@ -324,6 +330,10 @@ footer .footer_content {
   display: flex;
   flex-wrap: wrap;
   padding-left: 40px;
+}
+footer .footer_content .logo {
+  position: relative;
+  top: -10px;
 }
 footer .footer_content ul {
   display: flex;

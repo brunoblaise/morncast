@@ -14,6 +14,10 @@ $gray-color: #2e3856;
     transform: rotate(360deg);
   }
 }
+::selection {
+  background: #c5f1f1;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -117,12 +121,12 @@ main {
     overflow-y: hidden;
     padding: 40px;
     background-color: #4255ff;
-    clip-path: ellipse(100% 100% at 24.47% 0%);
+
     height: 380px;
 
     .main_buttons {
       display: flex;
-      
+
       margin-top: 50px;
       a {
         padding: 20px;
@@ -166,13 +170,11 @@ main {
     word-wrap: break-word;
   }
   .banner_img {
-
     overflow-y: hidden;
     position: relative;
     right: -524px;
     top: -475px;
     img {
-    
       width: 880px;
       height: 480px;
 
@@ -200,7 +202,6 @@ main {
         padding-bottom: 20px;
 
         .css-qq3mc3 {
-  
           box-sizing: border-box;
           margin: 0;
           min-width: 0;
@@ -318,7 +319,6 @@ main {
     }
   }
   .info_p {
-   
     padding: 10px;
     position: relative;
     top: 260px;
@@ -336,23 +336,28 @@ footer {
   position: relative;
 
   width: 400%;
-
+  height: 10px;
   left: -39px;
 
   background: #f6f7fb;
   clear: left;
   color: #282e3e;
   padding: 4rem 0 0;
+ 
   .footer_content {
     position: relative;
     left: -4px;
     top: -35px;
-
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding-left: 40px;
+  .logo{
+    position: relative;
+    top: -10px;
+  }
     ul {
+     
       display: -webkit-flex;
       display: flex;
       flex-wrap: wrap;
@@ -409,8 +414,6 @@ footer {
   }
 
   footer {
-    
-
     .footer_content {
       left: -44px;
     }
@@ -543,8 +546,6 @@ footer {
   }
 
   footer {
-   
-
     .footer_content {
       left: -44px;
     }
@@ -677,10 +678,7 @@ footer {
     }
   }
 
-
   footer {
-
-
     .footer_content {
       left: -44px;
     }
@@ -807,7 +805,7 @@ footer {
 
     .Info {
       background-color: #f6f7fb;
-      
+
       position: relative;
       top: -500px;
 
@@ -823,14 +821,14 @@ footer {
           left: 560px;
           top: -128px;
         }
-        p{
+        p {
           width: 200px;
         }
       }
     }
 
     .how_it_works {
-      display:flex ;
+      display: flex;
       flex-direction: column;
       .list-2 {
         position: relative;
@@ -847,7 +845,7 @@ footer {
         position: relative;
         left: -4px;
         top: -48px;
-        img{
+        img {
           width: 600px;
           height: 600px;
         }
