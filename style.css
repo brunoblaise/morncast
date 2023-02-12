@@ -1,11 +1,3 @@
-@-webkit-keyframes loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes loading {
   0% {
     transform: rotate(0deg);
@@ -47,9 +39,9 @@ header nav {
   bottom: 23px;
 }
 header nav .sitelogo svg {
-  width: 140px;
-  height: 90px;
-  padding-top: 10px;
+  width: 65px;
+  height: 41px;
+  padding-top: 30px;
   fill: #4255ff;
 }
 header nav ul {
@@ -166,8 +158,8 @@ main .right_banner p {
 main .banner_img {
   overflow-y: hidden;
   position: relative;
-  right: -524px;
-  top: -475px;
+  right: -435px;
+  top: -536px;
 }
 main .banner_img img {
   width: 880px;
@@ -234,8 +226,7 @@ main .Info .Img_card img:nth-child(2) {
   position: relative;
   left: 360px;
   top: 60px;
-  -webkit-animation: loading 60s linear infinite;
-          animation: loading 60s linear infinite;
+  animation: loading 60s linear infinite;
 }
 main .Info .Img_card p {
   position: relative;
@@ -314,31 +305,21 @@ main .info_p {
 }
 
 footer {
-  position: relative;
-  width: 400%;
-  height: 10px;
-  left: -39px;
+  height: 50px;
   background: #f6f7fb;
   clear: left;
   color: #282e3e;
-  padding: 4rem 0 0;
 }
 footer .footer_content {
   position: relative;
-  left: -4px;
-  top: -35px;
+  bottom: -14px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 40px;
-}
-footer .footer_content .logo {
-  position: relative;
-  top: -10px;
 }
 footer .footer_content ul {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-right: 40px;
 }
 footer .footer_content ul li {
@@ -354,9 +335,9 @@ footer .footer_content ul li {
   header nav .sitelogo svg {
     position: relative;
     left: 6px;
-    width: 40px;
-    height: 90px;
-    padding-top: 10px;
+    width: 60px;
+    height: 40px;
+    padding-top: 30px;
     fill: #4255ff;
   }
   header nav ul {
@@ -462,9 +443,9 @@ footer .footer_content ul li {
   header nav .sitelogo svg {
     position: relative;
     left: 6px;
-    width: 40px;
-    height: 90px;
-    padding-top: 10px;
+    width: 60px;
+    height: 40px;
+    padding-top: 30px;
     fill: #4255ff;
   }
   header nav ul {
@@ -570,9 +551,9 @@ footer .footer_content ul li {
   header nav .sitelogo svg {
     position: relative;
     left: 0px;
-    width: 110px;
-    height: 90px;
-    padding-top: 10px;
+    width: 65px;
+    height: 41px;
+    padding-top: 30px;
     fill: #4255ff;
   }
   header nav ul {

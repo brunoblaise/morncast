@@ -41,9 +41,9 @@ header {
     position: relative;
     bottom: 23px;
     .sitelogo svg {
-      width: 140px;
-      height: 90px;
-      padding-top: 10px;
+      width: 65px;
+      height: 41px;
+      padding-top: 30px;
       fill: #4255ff;
     }
     ul {
@@ -172,8 +172,9 @@ main {
   .banner_img {
     overflow-y: hidden;
     position: relative;
-    right: -524px;
-    top: -475px;
+    right: -435px;
+    top: -536px;
+
     img {
       width: 880px;
       height: 480px;
@@ -333,35 +334,27 @@ main {
 }
 
 footer {
-  position: relative;
 
-  width: 400%;
-  height: 10px;
-  left: -39px;
-
+height: 50px;
   background: #f6f7fb;
   clear: left;
   color: #282e3e;
-  padding: 4rem 0 0;
+
  
   .footer_content {
-    position: relative;
-    left: -4px;
-    top: -35px;
-    display: -webkit-flex;
+    
+position: relative;
+bottom: -14px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 40px;
-  .logo{
-    position: relative;
-    top: -10px;
-  }
+  
+
     ul {
      
       display: -webkit-flex;
       display: flex;
       flex-wrap: wrap;
-      padding-left: 40px;
+      padding-left: 30px;
       padding-right: 40px;
       li {
         padding-left: 40px;
@@ -381,9 +374,9 @@ footer {
       .sitelogo svg {
         position: relative;
         left: 6px;
-        width: 40px;
-        height: 90px;
-        padding-top: 10px;
+        width: 60px;
+        height: 40px;
+        padding-top: 30px;
         fill: #4255ff;
       }
       ul {
@@ -514,9 +507,9 @@ footer {
       .sitelogo svg {
         position: relative;
         left: 6px;
-        width: 40px;
-        height: 90px;
-        padding-top: 10px;
+        width: 60px;
+    height: 40px;
+    padding-top: 30px;
         fill: #4255ff;
       }
       ul {
@@ -647,9 +640,9 @@ footer {
       .sitelogo svg {
         position: relative;
         left: -0px;
-        width: 110px;
-        height: 90px;
-        padding-top: 10px;
+        width: 65px;
+        height: 41px;
+        padding-top: 30px;
         fill: #4255ff;
       }
       ul {
